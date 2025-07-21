@@ -1,0 +1,15 @@
+{
+  "menu.modernify.singleplayer": "Worlds",
+  "menu.modernify.multiplayer": "Servers",
+  "menu.modernify.options": "Settings",
+  "menu.modernify.modmenu": "Mods",
+  "menu.modernify.modmenu.not-installed": "Install Modernify Menu to use this!",
+  "menu.modernify.dupes": "Dupes",
+  "menu.modernify.demos": "Demos",
+  "menu.modernify.saves": "Saves",
+  "menu.modernify.quit": "Quit Game",
+  "menu.modernify.realms": "Realms",
+  "menu.modernify.version": "You are on the minecraft-%s branch. Click here to find out more. ( %s )",
+  "menu.modernify.accessibility": "Accessibility Options",
+  "menu.modernify.continue_playing": "Continue Playing"
+}

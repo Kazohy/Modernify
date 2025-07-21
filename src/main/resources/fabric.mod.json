@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "modernify",
+	"version": "${version}",
+	"name": "Modernify",
+	"description": "Have you ever looked at minecraft's UI and thought \"Hmmmm... this UI looks a bit... outdated\"? Well, think no more!",
+	"authors": [
+		"Kazohy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modernify/icon.png",
+	"environment": "*",
+	"entrypoints": {
+	"modmenu": ["net.kazohy.modernify.ModMenuIntegration"],
+		"main": [
+			"net.kazohy.modernify.MainMod"
+		],
+		"client   ": [
+			"net.kazohy.modernify.Modernify"
+		],
+		"fabric-datagen": [
+			"net.kazohy.modernify.ModernifyDataGenerator"
+		]
+	},
+	"mixins": [
+		"modernify_client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
